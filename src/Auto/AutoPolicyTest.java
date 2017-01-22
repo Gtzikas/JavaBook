@@ -17,7 +17,6 @@ public class AutoPolicyTest {
 		System.out.printf("Account #: Car: %s; State %s %s a no fault state%n%n", policy.getAccountNumber(), policy.getState(), policy.getMakeAndModel(),
 				(policy.isNoFaultState() ? "is" : "is not" ));
 		System.out.print("Testing for my second computer");
-		
 	}
 
 }
